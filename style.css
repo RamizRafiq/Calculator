@@ -1,90 +1,60 @@
-
-.container{
-width: 100%;
-height: auto;
-
+.main {
+  margin: 50px 0;
+  border: 1px solid lightgray;
+  padding: 20px 20px;
 }
 
-.main{
-
-margin: 50px auto;
-width: 250px;
-border: 1px solid green;
-padding: 10px 20px;
-
+.hidden {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
 }
 
-.dispflex{
-/* display: flex; */
-position: relative;
-}
-.dispflex .fa-exclamation-circle{
-
-    position: absolute;
-    right: 0% ;
-    padding: 10px 20px;
-    top: 20%;
-    color:red ;
-    font-size: 25px;
-    /* background-color: red; */
-}
-.hidden{
-    visibility: hidden;
-}
-.show{
-
-    visibility: visible;
+.result {
+  width: 97.5%;
+  border: 0;
+  color: white;
+  background-color: rgb(194, 205, 236);
+  font-size: 25px;
+  padding: 7% 0px;
+  outline: none;
 }
 
+.clearbutton {
+  width: 100%;
+  margin-top: 10px;
 
-.result{
+  outline: none;
 
-width: 95%;
-border: 2px solid grey;
-color: white;
-background-color: rgb(149, 169, 229);
-font-size:25px;
-/* height: 30%; */
-padding: 7% 0px;
-outline: none;
-
+  padding: 5% 0px;
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), sandybrown);
 }
 
+.custom-btn {
+  margin-top: 10px;
+width: 23%;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
 
-.clearbutton{
-    
-width: 97%;
-margin-top: 10px;
+  padding: 5% 0px;
 
-outline: none;
+  background-image: linear-gradient(to left 10%, rgba(255, 0, 0, 0), sandybrown);
+  border: 0;
+}
+.btn50 {
+  border: 0;
+  margin-top: 10px;
+  outline: none;
+  width: 48%;
+  background-image: linear-gradient(to left 10%, rgba(255, 0, 0, 0), sandybrown);
+  padding: 5% 0px;
 
-padding: 5% 0px;
-background-image: linear-gradient(to left, rgba(255,0,0,0),sandybrown);
+ 
 }
 
-.btn{
-
-    margin-top: 10px;
-   
-    outline: none;
-    width: 23%;
-    
-padding: 5% 0px;
-background-image: linear-gradient(to left, rgba(255,0,0,0),sandybrown);
-}
-.btn50{
-
-    margin-top: 10px;
-    outline: none;
-    width: 48%;
-    
-    padding: 5% 0px;
-
-    background-image: linear-gradient(to left, rgba(255,0,0,0),sandybrown);
-/* background-color: ; */
-}
-
-button:hover{
-    background-image: none;
-background-color: rgb(93, 180, 180);
+button:hover {
+  background-image: none;
+  background-color: rgb(195, 186, 186);
 }
